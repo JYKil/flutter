@@ -11,7 +11,13 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       //home: Text('Hello')
-      home: Icon(Icons.star)
+      //home: Icon(Icons.star)
+      home: Image.asset('icon.png')
+      /*
+      home: Center(
+          child: Container(width: 50, height: 50, color: Colors.red)
+      )
+      */
     );
   }
 }
